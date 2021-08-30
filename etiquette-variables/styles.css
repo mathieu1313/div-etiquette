@@ -1,0 +1,83 @@
+/* Etiquette avec variables styles */
+
+--main-background: #f39c12;
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  margin: 200;
+  background: #000;
+}
+
+#wrapper {
+  position: relative;
+  height: 500px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  background-color: #e74c3c;
+  width: 100%;
+  height: 25%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.round-rectangle {
+  width: 50%;
+  height: 30px;
+  margin: -15px auto 0 auto;
+  border-radius: 20px;
+  box-shadow: 3px -4px 6px -3px black inset;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 3px 4px 6px -3px black inset;
+}
+
+.white {
+  background-color: white;
+}
+
+main,
+footer {
+  text-align: center;
+  color: #34495e;
+  width: 100%;
+  background-color: #f39c12;
+}
+
+main {
+  height: 50%;
+  padding: 24px 0;
+}
+
+footer {
+  height: 25%;
+  background-color: #f37912;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px white;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 20px;
+}
